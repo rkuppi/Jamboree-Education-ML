@@ -21,7 +21,7 @@ Help Jamboree in understanding what factors are important in graduate admissions
   - Linearity
   - Multi Collinear (VIF)
   - Normality of residuals
-  - Heteroskedastifity
+  - Homoscedasticity
 - Model was packaged into a pickle object which will be used for the deployments
 
 # Deployment
