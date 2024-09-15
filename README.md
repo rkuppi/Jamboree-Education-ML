@@ -21,8 +21,7 @@ Help Jamboree in understanding what factors are important in graduate admissions
   - Multi Collinear (VIF)
   - Normality of residuals
   - Heteroskedastifity
- 
-- Model was packaged into a pickle object
+- Model was packaged into a pickle object which will be used for the deployments
 
 # Deployment
 - Jamboree_app.py is used to take the realtime input from the user and predict the chance of getting an admit
