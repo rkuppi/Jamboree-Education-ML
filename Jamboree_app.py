@@ -16,10 +16,10 @@ research = binary_input = st.selectbox('Do you have research experience yes/No',
 
 X_test = np.array([gre_score, toefel_score, university_rating, sop_score, lor_score, cgpa, research]).reshape(1,-1)
 
-with open(r'\\Artifacts\\StandardScaler.pkl', 'rb') as file:
+with open(r'./Artifacts/StandardScaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
-with open(r'\\Artifacts\\LinearRegressionmodel.pkl', 'rb') as file:
+with open(r'./Artifacts/LinearRegressionmodel.pkl', 'rb') as file:
     model = pickle.load(file)
 
 if(st.button("Submit")):
