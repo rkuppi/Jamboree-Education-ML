@@ -6,6 +6,7 @@ Help Jamboree in understanding what factors are important in graduate admissions
 
 # EDA
 - Univarient and bivarient analysis were performed to understand the data better and determine best features
+- Determined factors that are important in graduate admissions
 
 # Logistic Regression Model
 - Implemented Logistic Regression model using slkearn, OLS method, best R-squared was found to be 0.83
